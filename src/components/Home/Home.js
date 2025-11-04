@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
+import { FaXTwitter } from "react-icons/fa6";
 import Type from "./Type";
 import Techstack from "../About/Techstack";
 import Github from "../About/Github";
@@ -70,15 +71,15 @@ function Home() {
                 </a>
               </li>
               <li className="social-icons">
-                <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
+                            <a
+                              href="https://x.com/Soumyajit4419"
+                             target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
+                            >
+                              <FaXTwitter />
+                            </a>
+                          </li>
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/soumyajit4419/"

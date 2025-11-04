@@ -1,15 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 
 function Footer() {
   let date = new Date();
   let year = date.getFullYear();
+
   return (
     <Container fluid className="footer">
       <Row>
@@ -25,37 +23,40 @@ function Footer() {
               <a
                 href="https://github.com/soumyajit4419"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
               </a>
             </li>
+
             <li className="social-icons">
               <a
-                href="https://twitter.com/Soumyajit4419"
+                href="https://x.com/Soumyajit4419"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
-                <AiOutlineTwitter />
+                <FaXTwitter />
               </a>
             </li>
+
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/soumyajit4419/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
               </a>
             </li>
+
             <li className="social-icons">
               <a
                 href="https://www.instagram.com/soumyajit4419"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
@@ -69,3 +70,4 @@ function Footer() {
 }
 
 export default Footer;
+
